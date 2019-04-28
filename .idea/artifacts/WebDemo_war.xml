@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebDemo:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebDemo_war</output-path>
+    <root id="archive" name="WebDemo_war.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebDemo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WebDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
